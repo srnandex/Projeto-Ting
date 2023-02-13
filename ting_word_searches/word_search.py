@@ -10,7 +10,7 @@ def exists_word(word, instance):
             result.append({
               "palavra": word,
               "arquivo": item["nome_do_arquivo"],
-              "ocorrencias": []
+              "ocorrencias": occurrences
             })
 
     return result
